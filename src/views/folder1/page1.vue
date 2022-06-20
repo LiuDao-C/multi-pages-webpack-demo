@@ -8,7 +8,7 @@
 export default {
   data() {
     return {
-      title: 'value2',
+      title: '修改后的页面1',
     };
   },
 };
