@@ -1,15 +1,22 @@
 <template>
   <div>
     <h1 class="h1">{{ title }}</h1>
+    <p>{{ date }}</p>
   </div>
 </template>
 
 <script>
+import formDate from '../../public/utils/formDate';
 export default {
   data() {
     return {
       title: '修改后的页面1',
+      date: '2022-08-22',
     };
+  },
+
+  mounted() {
+    this.date = formDate(this.date);
   },
 };
 </script>
