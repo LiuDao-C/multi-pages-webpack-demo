@@ -1,5 +1,5 @@
 function formDate(str = '') {
-  return str.replaceAll('-', '/');
+  return str.replaceAll('-', ',');
 }
 
 export default formDate;
