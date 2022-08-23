@@ -1,4 +1,4 @@
-function formDate(str) {
+function formDate(str = '') {
   return str.replaceAll('-', '.');
 }
 
